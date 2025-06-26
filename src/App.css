@@ -1,0 +1,114 @@
+/* App.css */
+body {
+  background-color: #111;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  padding: 30px 20px;
+  margin-top: 60px;
+  height: 400px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-title::before {
+  content: "📅";
+  margin-right: 10px;
+}
+
+form {
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 30px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 12px 15px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 30px;
+}
+
+form input[type="submit"] {
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #ff5600;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fafafa;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 2px #ccc;
+}
+
+.todo-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-left input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.todo-left span {
+  font-size: 15px;
+  color: #333;
+}
+
+.todo-item button {
+  background: transparent;
+  border: none;
+  color: #888;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  color: #ff3333;
+}
