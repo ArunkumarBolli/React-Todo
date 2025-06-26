@@ -22,8 +22,5 @@ Users can add and delete tasks with a clean and modern UI.
 - **JavaScript (ES6)**
 
 ---
-
-## 📂 Folder Structure
-
-![screenshot]( ) 
+![screenshot](https://github.com/ArunkumarBolli/React-Todo/blob/8d323467ac13dcfdfbfdfe9a71b4fa768709d585/screencapture-localhost-3000-2025-06-27-00_11_03.png ) 
 
